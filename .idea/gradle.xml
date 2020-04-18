@@ -4,15 +4,31 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT" />
+        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/../my_flutter/.android/Flutter" />
+            <option value="$PROJECT_DIR$/../../t-widget-poc/widget-sdk/.android/Flutter" />
           </set>
         </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../t-widget-poc/widget-sdk/.android" />
+        <option name="gradleHome" value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-6.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../../t-widget-poc/widget-sdk/.android" />
+            <option value="$PROJECT_DIR$/../../t-widget-poc/widget-sdk/.android/Flutter" />
+            <option value="$PROJECT_DIR$/../../t-widget-poc/widget-sdk/.android/app" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
