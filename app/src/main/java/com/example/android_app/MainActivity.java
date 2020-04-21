@@ -1,12 +1,12 @@
 package com.example.android_app;
 
 import android.os.Bundle;
-import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import io.flutter.embedding.android.FlutterActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,10 +18,13 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         View widgetListButton = findViewById(R.id.widgetListButton);
+
+        MainActivity that = this;
+
         widgetListButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Log.d("test", "button ");
+                startActivity(FlutterActivity.createDefaultIntent(that));
             }
         });
 
