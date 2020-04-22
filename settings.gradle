@@ -2,5 +2,5 @@ include ':app'
 setBinding(new Binding([gradle: this]))
 evaluate(new File(
         settingsDir.parentFile,
-        '../t-widget-poc/widget-sdk/.android/include_flutter.groovy'
+        'widget-sdk/.android/include_flutter.groovy'
 ))

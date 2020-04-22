@@ -13,19 +13,27 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/../../t-widget-poc/widget-sdk/.android/Flutter" />
+            <option value="$PROJECT_DIR$/../widget-sdk/.android/Flutter" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_custom_tabs-0.6.0/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.4.5/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+5/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.1+1/android" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../../t-widget-poc/widget-sdk/.android" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../widget-sdk/.android" />
         <option name="gradleHome" value="C:/ProgramData/chocolatey/lib/gradle/tools/gradle-6.3" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../../t-widget-poc/widget-sdk/.android" />
-            <option value="$PROJECT_DIR$/../../t-widget-poc/widget-sdk/.android/Flutter" />
-            <option value="$PROJECT_DIR$/../../t-widget-poc/widget-sdk/.android/app" />
+            <option value="$PROJECT_DIR$/../widget-sdk/.android" />
+            <option value="$PROJECT_DIR$/../widget-sdk/.android/Flutter" />
+            <option value="$PROJECT_DIR$/../widget-sdk/.android/app" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_custom_tabs-0.6.0/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.4.5/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+5/android" />
+            <option value="C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.1+1/android" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />
